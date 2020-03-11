@@ -1,0 +1,2 @@
+# Rule to set lower max_sectors value as explained here: http://www.linux-usb.org/FAQ.html#i5
+ATTR{vendor}=="SONY    ", ATTR{model}=="WALKMAN         ", ATTRS{idVendor}=="054c", ATTRS{idProduct}=="098d", ATTR{max_sectors}="64"
